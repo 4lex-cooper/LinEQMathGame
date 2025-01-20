@@ -21,35 +21,47 @@ Are you looking to improve your basic linear alebra maths skills? Well this game
 
 ### What you'll need
 
-- Required: Python (version 3.9 or later) installed on your computer. The game can be run in the Python app terminal.
+- Required: Python (version 3.9 or later) installed on your computer.
 - Optional: A Python interpreter or IDE such as PyCharm or Visual Studio Code with Python extension installed.
 
+### How to Launch
+- Simply run the game in your terminal or open the 'main.py' file with Python.
 
 ### How to Play
-1. 
-2. 
-3. 
-4. 
+1. Read the instructions and click 'Start Game'.
+2. Solve the equation.
+3. Input your answer with your keyboard.
+4. Click submit.
+5. Answer 10 questions to complete the game.
+
+### Example Gameplay
 
 
 ## Technical Documentation
 
 ### To clone the repository:
 
-1. Open a Git Bash terminal.
-2. Change the current working to the location where you want the cloned directory.
-3. Paste the below into the terminal and press enter: 
 ```bash
 git clone https://github.com/4lex-cooper/LinEQMathGame.git
 ```
 
+### Python Modules Used
 
-### Variables
+- random:
+- tkinter:
+- tkk:
 
-**main_game.py**
 
-**game_logic.py**
+### Code Summary
 
-**game_logic_test.py**
+
+
+
+
+
+### Modification Considerations
+
+
+
 
 
