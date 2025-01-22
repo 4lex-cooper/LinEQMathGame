@@ -55,7 +55,18 @@ git clone https://github.com/4lex-cooper/LinEQMathGame.git
 ### Code Summary
 
 
+### Variables
 
+| Variable Name     | Data Type | Description                                              |
+| ----------------- | --------- | -------------------------------------------------------- |
+| instructions      | string    | Text that describes how to play the game for the user |
+| question          | string    | Current linear equation maths question |
+| user_answer_text  | string    | Latest answer submitted by the user |
+| user_answer       | integer   | Latest answer submitted by the user converted to the int data type |
+| correct_answer    | integer   | Correct answer to the current question |
+| score             | integer   | Number of correct answers the user has submitted in the current game |
+| questions_answered | integer  | Number of questions the user has answered in the current game |
+| total_questions   | integer   | Total number of questions to be answered to complete the game |
 
 
 
