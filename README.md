@@ -34,7 +34,7 @@ Are you looking to improve your basic linear alebra maths skills? Well this game
 4. Click submit.
 5. Answer 10 questions to complete the game.
 
-### Example Gameplay
+### Step by step example:
 ![image of Instructions Page Guide](https://github.com/4lex-cooper/LinEqMathGame/blob/main/Instructions%20Page%20Guide.png)
 ![image of Questions Page Guide](https://github.com/4lex-cooper/LinEqMathGame/blob/main/Questions%20Page%20Guide.png)
 ![image of Game Completed Page Guide](https://github.com/4lex-cooper/LinEqMathGame/blob/main/Game%20Completed%20Page%20Guide.png)
