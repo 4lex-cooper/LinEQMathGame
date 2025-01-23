@@ -107,11 +107,6 @@ All code follows the PEP8 style guide.
 | total_questions   | integer   | Total number of questions to be answered to complete the game |
 
 
-### Ideas for Improvement
-
-Timed mode: Timer
-
-
 
 
 
