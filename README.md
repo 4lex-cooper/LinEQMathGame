@@ -61,7 +61,7 @@ The parent class AppWindow represents the main tkinter GUI window and contains t
 
 The child classes InstructionsFrame and QuestionsFrame represent tkinter frames that contain the initial instructions page, and the main questions page plus the final game completion screen, respectively.
 
-All classes contain an '__init__' method which sets the classes initialised state. 
+All classes contain an '\_\_init__' method which sets the classes initialised state. 
 
 Methods with '_click' at the end of their name are executed first when the user clicks on a button in the GUI. These methods are attached to their corresponding button widgets by using the tkinter method '.configure(command=)' on the widget instance objects. 
 
