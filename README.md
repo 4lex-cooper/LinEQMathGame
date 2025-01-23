@@ -48,29 +48,32 @@ Are you looking to improve your basic linear alebra maths skills? Well this game
 git clone https://github.com/4lex-cooper/LinEQMathGame.git
 ```
 
-### Python Modules Used
 
-- random: Used in the function generate_lineq_question() to generate random numbers and choose a random operator.
-- tkinter: Used in main.py to create the games GUI (Graphical User Interface).
-- tkk: Used to create styled widgets within the GUI. 
-
-
-### Code Summary
+### Code Overview
 
 **main.py**
 
-The main game file. Contains all the GUI interactions.
+This is the main game file. It contains all the GUI interactions.
 
-Follows an object-oriented programming approach to enable more tidy, organised code and an easier way for GUI elements to be altered within methods seperate from those where they were originally created. 
+The code follows an object-oriented programming approach to enable more tidy and organised code as well as enabling an easier way for variables, GUI elements and widgets to be altered within methods that are outside of those where they were originally created. By attaching variables as attributes of the class with the 'self' parameter and by handling inheritance with the super() function we can access and alter these variables from within different methods.
 
 The parent class AppWindow represents the main tkinter GUI window and contains the Start Game button widget.
 
-The child classes InstructionsFrame and QuestionsFrame represent tkinter frames that contain the initial instructions page, and the main questions page plus the final game completion screen, respectively.  
+The child classes InstructionsFrame and QuestionsFrame represent tkinter frames that contain the initial instructions page, and the main questions page plus the final game completion screen, respectively.
 
+All classes contain an '__init__' method which sets the classes initialised state. 
+
+Methods with '_click' at the end of their name are executed first when the user clicks on a button in the GUI. These methods are attached to their corresponding button widgets by using the tkinter method '.configure(command=)' on the widget instance objects. 
+
+Example:
+
+```python
+self.close_button = ttk.Button(self, text="Close", command=self.close_click)
+```
 
 **functions.py**
 
-Contains re-usable pure functions (if we ignore the argument that generate_lineq_question() is not a pure function as it uses the random module) that improve the readability of the main game file. 
+Contains re-usable pure functions (if we ignore the argument that generate_lineq_question() is not a pure function as it uses the random module) that improve the readability of the main game file. All have docstrings to exaplain their purpose, any arguments and data that is returned by the function.
 
 
 **functions_test.py**
@@ -78,9 +81,16 @@ Contains re-usable pure functions (if we ignore the argument that generate_lineq
 This test file contains unit tests designed to ensure that the main functions within functions.py return valid results. To run tests, Pytest must be installed and called within the terminal.
 
 
+### Python Modules Used
+
+- random: Used in the function generate_lineq_question() to generate random numbers and choose a random operator.
+- tkinter: Used in main.py to create the games GUI (Graphical User Interface).
+- tkk: Used to create styled widgets within the GUI.
+
+
 ### Coding standards
 
-All code follows the PEP8 style guide  
+All code follows the PEP8 style guide.
 
 
 ### Variables
@@ -97,8 +107,9 @@ All code follows the PEP8 style guide
 | total_questions   | integer   | Total number of questions to be answered to complete the game |
 
 
+### Ideas for Improvement
 
-### Modification Considerations
+Timed mode: Timer
 
 
 
