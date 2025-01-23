@@ -80,7 +80,8 @@ This test file contains unit tests designed to ensure that the main functions wi
 
 ### Coding standards
 
-All code follows to the PEP8 style guide  
+All code follows the PEP8 style guide  
+
 
 ### Variables
 
