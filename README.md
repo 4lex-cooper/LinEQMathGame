@@ -88,6 +88,10 @@ This test file contains unit tests designed to ensure that the main functions wi
 - tkk: Used to create styled widgets within the GUI.
 
 
+### Python Version
+
+Python version 3.12.7 was used to develop this application.
+
 ### Coding standards
 
 All code follows the PEP8 style guide.
